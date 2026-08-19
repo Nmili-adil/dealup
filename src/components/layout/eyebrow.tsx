@@ -16,14 +16,17 @@ export function Eyebrow({
   }[tone];
 
   return (
-    <span
-      className={cn(
-        "inline-flex items-center rounded-full px-3 py-1 text-sm font-medium tracking-wide",
-        toneClasses,
-        className
-      )}
-    >
-      {children}
-    </span>
+    <div className="w-full flex items-center justify-center relative">
+      <div className=" w-full h-px shadow rounded-md bg-brand-dark absolute z-10 "/>
+      <span
+        className={cn(
+          "inline-flex items-center rounded-full text-lg underline underline-offset-8  z-20 px-3 py-1 font-medium tracking-wide",
+          toneClasses,
+          className,
+        )}
+      >
+        {children}
+      </span>
+    </div>
   );
 }

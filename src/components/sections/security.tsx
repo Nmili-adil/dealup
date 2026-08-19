@@ -3,13 +3,14 @@ import { Container } from "@/components/layout/container";
 import { Section } from "@/components/layout/section";
 import { SectionHeader } from "@/components/layout/section-header";
 import { MotionReveal } from "@/components/motion/motion-reveal";
+import { Card, IconTile } from "@/components/ui/card";
 import type { Dictionary } from "@/lib/i18n/get-dictionary";
 
 const icons = [ShieldCheck, KeyRound, Database, Server];
 
 export function Security({ dictionary }: { dictionary: Dictionary["security"] }) {
   return (
-    <Section tone="light">
+    <Section tone="white">
       <Container className="flex flex-col gap-14">
         <SectionHeader eyebrow={dictionary.eyebrow} headline={dictionary.headline} />
 
@@ -17,12 +18,18 @@ export function Security({ dictionary }: { dictionary: Dictionary["security"] })
           {dictionary.points.map((point, index) => {
             const Icon = icons[index];
             return (
-              <MotionReveal key={point.title} delay={index * 0.08}>
-                <div className="flex h-full flex-col gap-3 rounded-2xl border border-border bg-white p-6">
-                  <Icon className="size-6 text-brand-hover" aria-hidden="true" />
-                  <h3 className="font-semibold text-text-primary">{point.title}</h3>
-                  <p className="text-sm text-text-secondary">{point.description}</p>
-                </div>
+              <MotionReveal key={point.title} delay={index * 0.08} className="h-full">
+                <Card interactive padding="lg" className="group h-full gap-4">
+                  <IconTile className="group-hover:bg-brand-dark group-hover:text-white">
+                    <Icon aria-hidden="true" />
+                  </IconTile>
+                  <h3 className="font-semibold text-balance text-text-primary">
+                    {point.title}
+                  </h3>
+                  <p className="text-sm leading-relaxed text-text-secondary">
+                    {point.description}
+                  </p>
+                </Card>
               </MotionReveal>
             );
           })}

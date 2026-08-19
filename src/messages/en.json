@@ -11,189 +11,233 @@
   },
   "nav": {
     "products": {
-  "label": "Products",
-  "items": [
-    {
-      "title": "WhatsApp Business API",
-      "description": "Get FREE WhatsApp API",
-      "href": "/products/whatsapp-business-api"
+      "label": "Products",
+      "items": [
+        {
+          "title": "WhatsApp Business API",
+          "description": "Get FREE WhatsApp API",
+          "href": "/products/whatsapp-business-api"
+        },
+        {
+          "title": "WhatsApp Marketing",
+          "description": "Broadcast, Automate & Grow",
+          "href": "/products/whatsapp-marketing"
+        },
+        {
+          "title": "AI Ads Manager",
+          "description": "5X your Leads right away",
+          "href": "/products/ai-ads-manager"
+        },
+        {
+          "title": "WhatsApp Chatbots",
+          "description": "Automate your messaging with AI",
+          "href": "/products/whatsapp-chatbots"
+        },
+        {
+          "title": "AI WhatsApp Chatbot",
+          "description": "Automate everything with AI",
+          "href": "/products/ai-whatsapp-chatbot"
+        },
+        {
+          "title": "WhatsApp Payments",
+          "description": "Collect Payments within WhatsApp",
+          "href": "/products/whatsapp-payments"
+        },
+        {
+          "title": "WhatsApp Forms",
+          "description": "Native Forms within WhatsApp",
+          "href": "/products/whatsapp-forms"
+        },
+        {
+          "title": "WhatsApp Link & QR",
+          "description": "Free WhatsApp Link & QR generator",
+          "href": "/products/whatsapp-link-qr"
+        },
+        {
+          "title": "WhatsApp Blue Tick",
+          "description": "Get a Verified Badge",
+          "href": "/products/whatsapp-blue-tick"
+        },
+        {
+          "title": "Showroom Kit",
+          "description": "QR stand for your offline store",
+          "href": "/products/showroom-kit"
+        },
+        {
+          "title": "AiDealUp",
+          "description": "Hire 10X Faster with AI",
+          "href": "/products/AiDealUp"
+        }
+      ]
     },
-    {
-      "title": "WhatsApp Marketing",
-      "description": "Broadcast, Automate & Grow",
-      "href": "/products/whatsapp-marketing"
-    },
-    {
-      "title": "AI Ads Manager",
-      "description": "5X your Leads right away",
-      "href": "/products/ai-ads-manager"
-    },
-    {
-      "title": "WhatsApp Chatbots",
-      "description": "Automate your messaging with AI",
-      "href": "/products/whatsapp-chatbots"
-    },
-    {
-      "title": "AI WhatsApp Chatbot",
-      "description": "Automate everything with AI",
-      "href": "/products/ai-whatsapp-chatbot"
-    },
-    {
-      "title": "WhatsApp Payments",
-      "description": "Collect Payments within WhatsApp",
-      "href": "/products/whatsapp-payments"
-    },
-    {
-      "title": "WhatsApp Forms",
-      "description": "Native Forms within WhatsApp",
-      "href": "/products/whatsapp-forms"
-    },
-    {
-      "title": "WhatsApp Link & QR",
-      "description": "Free WhatsApp Link & QR generator",
-      "href": "/products/whatsapp-link-qr"
-    },
-    {
-      "title": "WhatsApp Blue Tick",
-      "description": "Get a Verified Badge",
-      "href": "/products/whatsapp-blue-tick"
-    },
-    {
-      "title": "Showroom Kit",
-      "description": "QR stand for your offline store",
-      "href": "/products/showroom-kit"
-    },
-    {
-      "title": "AiDealUp",
-      "description": "Hire 10X Faster with AI",
-      "href": "/products/AiDealUp"
-    }
-  ]
-},
     "solutions": {
       "label": "Industries",
       "items": [
-        { "title": "E-commerce", "description": "COD confirmation, cart recovery, order status", "href": "/solutions/ecommerce" },
-        { "title": "Hotels", "description": "Bookings, guest support, offers", "href": "/solutions/hotels" },
-        { "title": "Finance & Insurance", "description": "Fintech, Banking & More", "href": "/solutions/finance-insurance" },
-        { "title": "Real Estate", "description": "Lead qualification and property follow-up", "href": "/solutions/real-estate" },
-        { "title": "Healthcare", "description": "Appointment reminders and patient follow-up", "href": "/solutions/healthcare" },
-        { "title": "Education", "description": "Admissions and student support", "href": "/solutions/education" },
-        { "title": "Agencies", "description": "Manage multiple clients from one platform", "href": "/solutions/agencies" }
+        {
+          "title": "E-commerce",
+          "description": "COD confirmation, cart recovery, order status",
+          "href": "/solutions/ecommerce"
+        },
+        {
+          "title": "Hotels",
+          "description": "Bookings, guest support, offers",
+          "href": "/solutions/hotels"
+        },
+        {
+          "title": "Finance & Insurance",
+          "description": "Fintech, Banking & More",
+          "href": "/solutions/finance-insurance"
+        },
+        {
+          "title": "Real Estate",
+          "description": "Lead qualification and property follow-up",
+          "href": "/solutions/real-estate"
+        },
+        {
+          "title": "Healthcare",
+          "description": "Appointment reminders and patient follow-up",
+          "href": "/solutions/healthcare"
+        },
+        {
+          "title": "Education",
+          "description": "Admissions and student support",
+          "href": "/solutions/education"
+        },
+        {
+          "title": "Agencies",
+          "description": "Manage multiple clients from one platform",
+          "href": "/solutions/agencies"
+        }
       ]
     },
     "features": {
-  "label": "Features",
-  "items": [
-    {
-      "title": "Features",
-      "description": "Explore all Powerful AiSensy features",
-      "href": "/features"
+      "label": "Features",
+      "items": [
+        {
+          "title": "Features",
+          "description": "Explore all Powerful AiSensy features",
+          "href": "/features"
+        },
+        {
+          "title": "WhatsApp Broadcasting",
+          "description": "Retargeting, CRM & more",
+          "href": "/features/whatsapp-broadcasting"
+        },
+        {
+          "title": "WhatsApp AI Agents",
+          "description": "Build AI Agents on WhatsApp",
+          "href": "/features/whatsapp-ai-agents"
+        },
+        {
+          "title": "AI WhatsApp Chatbot",
+          "description": "Automate anything with AI",
+          "href": "/features/ai-whatsapp-chatbot"
+        },
+        {
+          "title": "Ads Manager",
+          "description": "3X Your Leads",
+          "href": "/features/ads-manager"
+        },
+        {
+          "title": "WhatsApp Chatbots",
+          "description": "Drag & Drop Flow Builder",
+          "href": "/features/whatsapp-chatbots"
+        },
+        {
+          "title": "WhatsApp Catalog",
+          "description": "Sell Products on WhatsApp",
+          "href": "/features/whatsapp-catalog"
+        },
+        {
+          "title": "WhatsApp Payments",
+          "description": "Collect Payments via UPI & Card",
+          "href": "/features/whatsapp-payments"
+        },
+        {
+          "title": "WhatsApp Forms",
+          "description": "Native Data Collection",
+          "href": "/features/whatsapp-forms"
+        },
+        {
+          "title": "WhatsApp Webviews",
+          "description": "Web within WhatsApp",
+          "href": "/features/whatsapp-webviews"
+        },
+        {
+          "title": "Click Tracking",
+          "description": "Import, Broadcast & Track",
+          "href": "/features/click-tracking"
+        }
+      ]
     },
-    {
-      "title": "WhatsApp Broadcasting",
-      "description": "Retargeting, CRM & more",
-      "href": "/features/whatsapp-broadcasting"
+    "integrations": {
+      "label": "Integrations",
+      "items": [
+        {
+          "title": "Explore all Integrations",
+          "description": "Automate Notifications",
+          "href": "/integrations"
+        },
+        {
+          "title": "Shopify",
+          "description": "Abandoned Cart, Order Status & more",
+          "href": "/integrations/shopify"
+        },
+        {
+          "title": "Razorpay",
+          "description": "Send Payment Notifications",
+          "href": "/integrations/razorpay"
+        },
+        {
+          "title": "Shopify Checkouts",
+          "description": "Simple, Magic Checkout & more",
+          "href": "/integrations/shopify-checkouts"
+        },
+        {
+          "title": "WebEngage",
+          "description": "Automate your Journeys",
+          "href": "/integrations/webengage"
+        },
+        {
+          "title": "LeadSquared",
+          "description": "Connect your CRM",
+          "href": "/integrations/leadsquared"
+        },
+        {
+          "title": "Integrately",
+          "description": "Build Automations",
+          "href": "/integrations/integrately"
+        },
+        {
+          "title": "Webhook APIs",
+          "description": "Receive incoming data from AiSensy to your backend",
+          "href": "/integrations/webhook-apis"
+        }
+      ]
     },
-    {
-      "title": "WhatsApp AI Agents",
-      "description": "Build AI Agents on WhatsApp",
-      "href": "/features/whatsapp-ai-agents"
-    },
-    {
-      "title": "AI WhatsApp Chatbot",
-      "description": "Automate anything with AI",
-      "href": "/features/ai-whatsapp-chatbot"
-    },
-    {
-      "title": "Ads Manager",
-      "description": "3X Your Leads",
-      "href": "/features/ads-manager"
-    },
-    {
-      "title": "WhatsApp Chatbots",
-      "description": "Drag & Drop Flow Builder",
-      "href": "/features/whatsapp-chatbots"
-    },
-    {
-      "title": "WhatsApp Catalog",
-      "description": "Sell Products on WhatsApp",
-      "href": "/features/whatsapp-catalog"
-    },
-    {
-      "title": "WhatsApp Payments",
-      "description": "Collect Payments via UPI & Card",
-      "href": "/features/whatsapp-payments"
-    },
-    {
-      "title": "WhatsApp Forms",
-      "description": "Native Data Collection",
-      "href": "/features/whatsapp-forms"
-    },
-    {
-      "title": "WhatsApp Webviews",
-      "description": "Web within WhatsApp",
-      "href": "/features/whatsapp-webviews"
-    },
-    {
-      "title": "Click Tracking",
-      "description": "Import, Broadcast & Track",
-      "href": "/features/click-tracking"
-    }
-  ]
-},
-"integrations": {
-  "label": "Integrations",
-  "items": [
-    {
-      "title": "Explore all Integrations",
-      "description": "Automate Notifications",
-      "href": "/integrations"
-    },
-    {
-      "title": "Shopify",
-      "description": "Abandoned Cart, Order Status & more",
-      "href": "/integrations/shopify"
-    },
-    {
-      "title": "Razorpay",
-      "description": "Send Payment Notifications",
-      "href": "/integrations/razorpay"
-    },
-    {
-      "title": "Shopify Checkouts",
-      "description": "Simple, Magic Checkout & more",
-      "href": "/integrations/shopify-checkouts"
-    },
-    {
-      "title": "WebEngage",
-      "description": "Automate your Journeys",
-      "href": "/integrations/webengage"
-    },
-    {
-      "title": "LeadSquared",
-      "description": "Connect your CRM",
-      "href": "/integrations/leadsquared"
-    },
-    {
-      "title": "Integrately",
-      "description": "Build Automations",
-      "href": "/integrations/integrately"
-    },
-    {
-      "title": "Webhook APIs",
-      "description": "Receive incoming data from AiSensy to your backend",
-      "href": "/integrations/webhook-apis"
-    }
-  ]
-},
     "resources": {
       "label": "Resources",
       "items": [
-        { "title": "Blog", "description": "Guides and best practices for WhatsApp Business", "href": "/blog" },
-        { "title": "Documentation", "description": "Integrate Dealup into your stack", "href": "/docs" },
-        { "title": "API", "description": "Full technical reference", "href": "/api" },
-        { "title": "Help Center", "description": "Answers to common questions", "href": "/help" }
+        {
+          "title": "Blog",
+          "description": "Guides and best practices for WhatsApp Business",
+          "href": "/blog"
+        },
+        {
+          "title": "Documentation",
+          "description": "Integrate Dealup into your stack",
+          "href": "/docs"
+        },
+        {
+          "title": "API",
+          "description": "Full technical reference",
+          "href": "/api"
+        },
+        {
+          "title": "Help Center",
+          "description": "Answers to common questions",
+          "href": "/help"
+        }
       ]
     },
     "pricing": "Pricing",
@@ -206,7 +250,8 @@
   },
   "hero": {
     "eyebrow": "WhatsApp Business. Reinvented.",
-    "headline": "Turn every WhatsApp conversation into a growth opportunity.",
+    "headline": "Turn every WhatsApp conversation into a ",
+    "hightlight": "growth opportunity.",
     "subheadline": "Campaigns, sales, customer support and AI automations — in one platform.",
     "primaryCta": "Start for free",
     "secondaryCta": "See Dealup in action",
@@ -218,8 +263,16 @@
     ],
     "windowTitle": "Dealup — Analytics",
     "metrics": [
-      { "label": "Conversion", "value": "24%", "trend": "+3.1%" },
-      { "label": "AI replies", "value": "182", "trend": "+18%" }
+      {
+        "label": "Conversion",
+        "value": "24%",
+        "trend": "+3.1%"
+      },
+      {
+        "label": "AI replies",
+        "value": "182",
+        "trend": "+18%"
+      }
     ],
     "demoChat": {
       "question": "Hi, is my order confirmed?",
@@ -227,7 +280,14 @@
     }
   },
   "trust": {
-    "heading": "Built for teams that sell and support customers on WhatsApp."
+    "heading": "Built for teams that sell and support customers on ",
+    "headingColored": "WhatsApp.",
+    "pillars": [
+      "Official WhatsApp Business API",
+      "Fast setup",
+      "Unlimited agents",
+      "FR · AR · EN"
+    ]
   },
   "problem": {
     "eyebrow": "The problem",
@@ -252,12 +312,115 @@
     "eyebrow": "The platform",
     "headline": "One platform, from first message to closed sale.",
     "steps": [
-      { "number": "01", "title": "Campaigns", "description": "Reach your audiences with personalized, measurable messages." },
-      { "number": "02", "title": "Inbox", "description": "The whole team replies from one shared view, no duplicates." },
-      { "number": "03", "title": "Automations", "description": "Scenarios take over the moment a trigger fires." },
-      { "number": "04", "title": "AI", "description": "Qualify leads and suggest replies in real time." },
-      { "number": "05", "title": "Analytics", "description": "Track what actually drives revenue." }
-    ]
+      {
+        "number": "01",
+        "title": "Campaigns",
+        "description": "Reach your audiences with personalized, measurable messages.",
+        "caption": "Campaign template — approved WhatsApp broadcast",
+        "alt": "A Dealup campaign template: a WhatsApp broadcast with a photo header, event title, date, location and contact details.",
+        "highlights": [
+          {
+            "title": "Rich media templates",
+            "description": "Image header, formatted copy, and buttons — inside WhatsApp's approved template format."
+          },
+          {
+            "title": "Personalized at scale",
+            "description": "Merge contact fields so a broadcast to thousands still reads one-to-one."
+          },
+          {
+            "title": "Schedule, then measure",
+            "description": "Queue the send and follow delivery, read, and reply rates per campaign."
+          }
+        ]
+      },
+      {
+        "number": "02",
+        "title": "Inbox",
+        "description": "The whole team replies from one shared view, no duplicates.",
+        "caption": "Chats — the shared team inbox",
+        "alt": "The Dealup Chats screen: a conversation list with unread counts and Open or Closed status, next to an open WhatsApp thread.",
+        "highlights": [
+          {
+            "title": "One queue for the team",
+            "description": "Every conversation in a single list, filtered by Open, Unread, or Closed."
+          },
+          {
+            "title": "Assign and resolve",
+            "description": "Route a thread to the right agent, then mark it closed when it's handled."
+          },
+          {
+            "title": "More than text",
+            "description": "Send templates, catalog items, documents, and voice notes from the composer."
+          }
+        ]
+      },
+      {
+        "number": "03",
+        "title": "Automations",
+        "description": "Scenarios take over the moment a trigger fires.",
+        "caption": "WhatsApp Flows — the automation builder",
+        "alt": "The Dealup automation builder: a palette of message blocks beside a canvas of connected nodes forming a conversation flow.",
+        "highlights": [
+          {
+            "title": "Blocks, not code",
+            "description": "Drag in text, media, forms, catalog items, and interactive lists."
+          },
+          {
+            "title": "Keyword triggers",
+            "description": "A scenario starts the moment an incoming message matches your keywords."
+          },
+          {
+            "title": "Branching paths",
+            "description": "Interactive buttons split the flow by what the customer actually chooses."
+          }
+        ]
+      },
+      {
+        "number": "04",
+        "title": "AI",
+        "description": "Qualify leads and suggest replies in real time.",
+        "caption": "Automation — the AI Reply Assistant",
+        "alt": "The Dealup AI Reply Assistant settings: a toggle to enable AI responses, keyword setup, and a knowledge base of uploaded documents.",
+        "highlights": [
+          {
+            "title": "Switch it on per team",
+            "description": "One toggle activates AI-generated responses across your conversations."
+          },
+          {
+            "title": "Trigger on your keywords",
+            "description": "Decide which incoming messages the assistant should answer, and which stay human."
+          },
+          {
+            "title": "Answers from your documents",
+            "description": "Upload your own files so replies draw on your catalogue, pricing, and policies."
+          }
+        ]
+      },
+      {
+        "number": "05",
+        "title": "Analytics",
+        "description": "Track what actually drives revenue.",
+        "caption": "Dashboard — the performance overview",
+        "alt": "The Dealup dashboard: counters for contacts, campaigns and templates, an inbound versus outbound chat chart, and scheduled campaigns.",
+        "highlights": [
+          {
+            "title": "The numbers that matter",
+            "description": "Contacts, campaigns, templates, and total conversations on one screen."
+          },
+          {
+            "title": "Inbound vs outbound",
+            "description": "Watch how conversation volume moves day by day, in both directions."
+          },
+          {
+            "title": "Balance and billing",
+            "description": "Messaging balance and subscription status sit beside the performance data."
+          }
+        ]
+      }
+    ],
+    "captionLabel": "What you're looking at",
+    "pauseLabel": "Pause auto-rotation",
+    "playLabel": "Resume auto-rotation"
   },
   "productUi": {
     "sent": "Sent",
@@ -281,24 +444,68 @@
   },
   "campaigns": {
     "eyebrow": "Campaigns",
-    "headline": "Reach thousands of customers. Without losing personalization.",
+    "headline": "Reach thousands of customers. Without losing the ",
     "description": "Segment your audiences, personalize your messages, and track every campaign through to conversion.",
     "features": [
-      { "title": "Audience segmentation", "description": "Target by behavior, purchase history, or location." },
-      { "title": "Approved templates", "description": "Use validated WhatsApp templates for every use case." },
-      { "title": "Scheduling", "description": "Send at the moment that matters most for each audience." },
-      { "title": "Performance tracking", "description": "Delivery, read, and conversion rates at a glance." }
-    ]
+      {
+        "title": "Audience segmentation",
+        "description": "Target by behavior, purchase history, or location."
+      },
+      {
+        "title": "Approved templates",
+        "description": "Use validated WhatsApp templates for every use case."
+      },
+      {
+        "title": "Scheduling",
+        "description": "Send at the moment that matters most for each audience."
+      },
+      {
+        "title": "Performance tracking",
+        "description": "Delivery, read, and conversion rates at a glance."
+      }
+    ],
+    "highlight": "personal touch.",
+    "panel": {
+      "title": "Campaign performance",
+      "audience": "Audience: Active customers",
+      "status": "In progress",
+      "progressLabel": "Delivery progress",
+      "delivered": "Delivered",
+      "read": "Read",
+      "conversions": "Conversions",
+      "days": [
+        "20 Apr",
+        "21 Apr",
+        "22 Apr",
+        "23 Apr",
+        "24 Apr",
+        "25 Apr",
+        "26 Apr"
+      ],
+      "chartSummary": "Messages delivered per day, rising steadily from about 400 on 20 April to 8,210 on 26 April."
+    }
   },
   "teamInbox": {
     "eyebrow": "Team Inbox",
     "headline": "One inbox. Your entire team.",
     "description": "Assign, tag, and track every conversation without losing context, even across many agents.",
     "features": [
-      { "title": "Smart assignment", "description": "Every conversation finds the right agent automatically." },
-      { "title": "Tags & internal notes", "description": "Keep context visible for the whole team." },
-      { "title": "Customer history", "description": "Pull up every past exchange in one click." },
-      { "title": "Team presence", "description": "See who's available and who's already on a request." }
+      {
+        "title": "Smart assignment",
+        "description": "Every conversation finds the right agent automatically."
+      },
+      {
+        "title": "Tags & internal notes",
+        "description": "Keep context visible for the whole team."
+      },
+      {
+        "title": "Customer history",
+        "description": "Pull up every past exchange in one click."
+      },
+      {
+        "title": "Team presence",
+        "description": "See who's available and who's already on a request."
+      }
     ],
     "demo": {
       "assignedBadge": "Assigned",
@@ -325,10 +532,22 @@
     "headline": "Your WhatsApp team. Now augmented by AI.",
     "description": "Dealup AI understands customer intent, drafts a reply, and lets the agent decide.",
     "capabilities": [
-      { "title": "FAQ automation", "description": "Common questions get an instant answer." },
-      { "title": "Lead qualification", "description": "Intent and interest level are detected from the first messages." },
-      { "title": "Suggested replies", "description": "The agent gets a draft reply to approve or adjust." },
-      { "title": "Conversation summaries", "description": "Catch up on a long thread in a few lines." }
+      {
+        "title": "FAQ automation",
+        "description": "Common questions get an instant answer."
+      },
+      {
+        "title": "Lead qualification",
+        "description": "Intent and interest level are detected from the first messages."
+      },
+      {
+        "title": "Suggested replies",
+        "description": "The agent gets a draft reply to approve or adjust."
+      },
+      {
+        "title": "Conversation summaries",
+        "description": "Catch up on a long thread in a few lines."
+      }
     ],
     "demo": {
       "customerLabel": "Customer",
@@ -344,52 +563,212 @@
     "categories": [
       {
         "title": "E-commerce",
-        "useCases": ["COD order confirmation", "Delivery status", "Abandoned cart recovery", "Product questions"]
+        "useCases": [
+          "COD order confirmation",
+          "Delivery status",
+          "Abandoned cart recovery",
+          "Product questions"
+        ]
       },
       {
         "title": "Hotels",
-        "useCases": ["Booking confirmation", "Guest support", "Pre-arrival communication", "Personalized offers"]
+        "useCases": [
+          "Booking confirmation",
+          "Guest support",
+          "Pre-arrival communication",
+          "Personalized offers"
+        ]
       },
       {
         "title": "Real Estate",
-        "useCases": ["Lead qualification", "Property follow-up", "Appointment scheduling"]
+        "useCases": [
+          "Lead qualification",
+          "Property follow-up",
+          "Appointment scheduling"
+        ]
       },
       {
         "title": "Healthcare",
-        "useCases": ["Appointment reminders", "Frequently asked questions", "Post-visit follow-up"]
+        "useCases": [
+          "Appointment reminders",
+          "Frequently asked questions",
+          "Post-visit follow-up"
+        ]
       },
       {
         "title": "Education",
-        "useCases": ["Admissions inquiries", "Registration", "Student support"]
+        "useCases": [
+          "Admissions inquiries",
+          "Registration",
+          "Student support"
+        ]
       },
       {
         "title": "Agencies",
-        "useCases": ["Multi-client communication", "Campaign management", "Lead routing"]
+        "useCases": [
+          "Multi-client communication",
+          "Campaign management",
+          "Lead routing"
+        ]
       }
     ]
   },
   "clickToWhatsapp": {
-    "eyebrow": "Click-to-WhatsApp Ads",
-    "headline": "From ad click to sale, without a gap.",
-    "description": "See the full journey, from the Meta ad to the conversion.",
-    "funnel": ["Meta ad", "WhatsApp", "Dealup automation / AI", "Qualified lead", "Sales agent", "Conversion"]
+    "eyebrow": "Why Dealup",
+    "headline": "From the ad to the sale, with a customer experience that is ",
+    "highlight": "friction-free.",
+    "descriptionParts": [
+      {
+        "text": "Dealup",
+        "bold": true
+      },
+      {
+        "text": " centralises your "
+      },
+      {
+        "text": "click-to-WhatsApp ads",
+        "bold": true
+      },
+      {
+        "text": ", replies instantly, automates the conversation, qualifies your leads and hands them to your sales team at the right moment — with precise conversion tracking throughout."
+      }
+    ],
+    "features": [
+      {
+        "title": "Instant reply",
+        "description": "Every click gets an answer within seconds."
+      },
+      {
+        "title": "Smart automation",
+        "description": "AI handles the exchange, answers questions and offers the right options."
+      },
+      {
+        "title": "Lead qualification",
+        "description": "Dealup qualifies prospects so only the best ones reach your team."
+      },
+      {
+        "title": "Conversion tracking",
+        "description": "Measure the whole journey and keep optimising your campaigns."
+      },
+      {
+        "title": "Smooth handover",
+        "description": "Passed to a sales agent at the right moment, with the full context."
+      },
+      {
+        "title": "Better conversion rate",
+        "description": "More responsiveness, more trust, more sales."
+      }
+    ],
+    "journeyLabel": "A simple, effective journey",
+    "funnel": [
+      "Meta ad",
+      "WhatsApp",
+      "AI / Automation",
+      "Qualified lead",
+      "Sales agent",
+      "Conversion"
+    ],
+    "primaryCta": "Start for free",
+    "secondaryCta": "Watch the demo",
+    "reassurances": [
+      "Fast setup",
+      "No credit card",
+      "Free trial"
+    ],
+    "stats": [
+      {
+        "label": "Instant replies",
+        "value": "x3",
+        "caption": "vs. without Dealup"
+      },
+      {
+        "label": "Conversion rate",
+        "value": "+24%",
+        "caption": "on average"
+      }
+    ],
+    "imageAlt": "A customer reads the order confirmation Dealup sent her on WhatsApp."
   },
   "analytics": {
     "eyebrow": "Analytics",
     "headline": "Measure what converts.",
-    "description": "Track campaign, agent, and automation performance in one place.",
-    "metrics": ["Messages delivered", "Read rate", "Replies", "Conversion", "Agent performance", "Campaign performance"]
+    "description": "Dealup brings the performance of your campaigns, your agents and your automations into one place. Follow your key indicators in real time, spot what is working and make better decisions, faster.",
+    "metrics": [
+      "Messages delivered",
+      "Read rate",
+      "Replies",
+      "Conversion",
+      "Agent performance",
+      "Campaign performance"
+    ],
+    "overview": {
+      "label": "Overview",
+      "title": "Overall growth",
+      "value": "+27%",
+      "caption": "Total performance vs. previous period",
+      "roiLabel": "Estimated ROI",
+      "roiValue": "4.3x",
+      "roiCaption": "across your active campaigns",
+      "chartSummary": "Cumulative growth rising steadily across the period."
+    },
+    "floating": [
+      {
+        "label": "Overall trend",
+        "value": "+27%",
+        "caption": "vs. previous period"
+      },
+      {
+        "label": "Top-performing agents",
+        "value": "97%",
+        "caption": "Success rate"
+      },
+      {
+        "label": "Optimised campaigns",
+        "value": "+18%",
+        "caption": "Replies generated"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Complete clarity",
+        "description": "See your essential KPIs in real time."
+      },
+      {
+        "title": "Continuous optimisation",
+        "description": "Spot what performs and adjust your actions."
+      },
+      {
+        "title": "Better decisions",
+        "description": "Reliable data to steer your campaigns effectively."
+      },
+      {
+        "title": "More results",
+        "description": "Improve your conversions and maximise your ROI."
+      }
+    ],
+    "imageAlt": "The Dealup dashboard on a desktop computer: contact and campaign counters, an inbound versus outbound conversation chart, and scheduled campaigns.",
+    "note": "Illustrative figures shown for demonstration."
   },
   "customerStory": {
     "eyebrow": "Customer story",
     "headline": "Our early customers are shaping Dealup with us.",
-    "placeholderNote": "Detailed case studies, with measured and verified results, will be published here as our rollouts progress."
+    "placeholderNote": "Detailed case studies, with measured and verified results, will be published here as our rollouts progress.",
+    "badge": "Early access"
   },
   "integrations": {
     "eyebrow": "Integrations",
     "headline": "Connect Dealup to the tools you already use.",
     "description": "Dealup integrates with your e-commerce stack and existing workflows.",
-    "items": ["WhatsApp Business API", "Meta", "Shopify", "WooCommerce", "Zapier", "Webhooks", "Dealup API"]
+    "items": [
+      "WhatsApp Business API",
+      "Meta",
+      "Shopify",
+      "WooCommerce",
+      "Zapier",
+      "Webhooks",
+      "Dealup API"
+    ],
+    "note": "Don't see your tool? Our API and webhooks connect the rest."
   },
   "pricingPreview": {
     "eyebrow": "Pricing",
@@ -399,42 +778,88 @@
       {
         "name": "Start",
         "description": "To launch your sales presence on WhatsApp.",
-        "features": ["Team inbox", "Basic campaigns", "1 WhatsApp number", "Email support"]
+        "features": [
+          "Team inbox",
+          "Basic campaigns",
+          "1 WhatsApp number",
+          "Email support"
+        ]
       },
       {
         "name": "Pro",
         "description": "For teams automating sales and support.",
-        "features": ["Advanced automations", "AI agents", "Full analytics", "Unlimited agents"]
+        "features": [
+          "Advanced automations",
+          "AI agents",
+          "Full analytics",
+          "Unlimited agents"
+        ]
       },
       {
         "name": "Business",
         "description": "For organizations with multi-team needs.",
-        "features": ["Multiple numbers", "Advanced integrations", "API access", "Dedicated onboarding"]
+        "features": [
+          "Multiple numbers",
+          "Advanced integrations",
+          "API access",
+          "Dedicated onboarding"
+        ]
       }
     ],
     "cta": "Talk to an expert",
-    "note": "Exact pricing is shared based on your volume and needs."
+    "note": "Exact pricing is shared based on your volume and needs.",
+    "popularLabel": "Most popular"
   },
   "security": {
     "eyebrow": "Security & trust",
     "headline": "Infrastructure built for business-critical communication.",
     "points": [
-      { "title": "Official WhatsApp Business API", "description": "Dealup runs on Meta's official infrastructure." },
-      { "title": "Role-based access", "description": "Every team member only accesses what they need." },
-      { "title": "Data handling", "description": "Your customer data stays under your control." },
-      { "title": "Reliability", "description": "A platform built for business-critical communication." }
+      {
+        "title": "Official WhatsApp Business API",
+        "description": "Dealup runs on Meta's official infrastructure."
+      },
+      {
+        "title": "Role-based access",
+        "description": "Every team member only accesses what they need."
+      },
+      {
+        "title": "Data handling",
+        "description": "Your customer data stays under your control."
+      },
+      {
+        "title": "Reliability",
+        "description": "A platform built for business-critical communication."
+      }
     ]
   },
   "faq": {
     "eyebrow": "FAQ",
     "headline": "Everything you need to know before you start.",
     "items": [
-      { "q": "Does Dealup use the official WhatsApp Business API?", "a": "Yes, Dealup runs on the official WhatsApp Business API infrastructure." },
-      { "q": "Can I try Dealup for free?", "a": "Yes, you can start for free and explore the platform before choosing a plan." },
-      { "q": "Are WhatsApp fees included in the subscription?", "a": "No, Meta/WhatsApp messaging fees are billed separately from your Dealup subscription." },
-      { "q": "Does Dealup work for cash-on-delivery (COD) orders?", "a": "Yes, Dealup is used by Moroccan e-commerce businesses to confirm and track COD orders." },
-      { "q": "How many agents can I add?", "a": "The number of agents depends on your plan. Contact us for a recommendation suited to your team." },
-      { "q": "Is Dealup available in Arabic?", "a": "Yes, the platform and support are available in French, Arabic, and English." }
+      {
+        "q": "Does Dealup use the official WhatsApp Business API?",
+        "a": "Yes, Dealup runs on the official WhatsApp Business API infrastructure."
+      },
+      {
+        "q": "Can I try Dealup for free?",
+        "a": "Yes, you can start for free and explore the platform before choosing a plan."
+      },
+      {
+        "q": "Are WhatsApp fees included in the subscription?",
+        "a": "No, Meta/WhatsApp messaging fees are billed separately from your Dealup subscription."
+      },
+      {
+        "q": "Does Dealup work for cash-on-delivery (COD) orders?",
+        "a": "Yes, Dealup is used by Moroccan e-commerce businesses to confirm and track COD orders."
+      },
+      {
+        "q": "How many agents can I add?",
+        "a": "The number of agents depends on your plan. Contact us for a recommendation suited to your team."
+      },
+      {
+        "q": "Is Dealup available in Arabic?",
+        "a": "Yes, the platform and support are available in French, Arabic, and English."
+      }
     ]
   },
   "finalCta": {
@@ -451,8 +876,23 @@
       "loadingLabel": "Sending…",
       "successMessage": "Thanks! Our team will reach out shortly.",
       "errorMessage": "Something went wrong. Please try again.",
-      "privacyNote": "By submitting this form, you agree to be contacted by the Dealup team."
-    }
+      "privacyNote": "By submitting this form, you agree to be contacted by the Dealup team.",
+      "nameLabel": "Full name",
+      "emailLabel": "Work email",
+      "phoneLabel": "Phone number",
+      "companyLabel": "Company name",
+      "optionalLabel": "optional",
+      "errors": {
+        "name": "Enter your full name (at least 2 characters).",
+        "email": "Enter a valid email address, e.g. name@company.com.",
+        "phone": "Enter a phone number we can reach you on."
+      }
+    },
+    "reassurances": [
+      "Free to start",
+      "No credit card required",
+      "Setup in minutes"
+    ]
   },
   "footer": {
     "description": "The WhatsApp platform that centralizes your sales, support, and automations.",
@@ -465,11 +905,26 @@
       "company": "Company"
     },
     "companyLinks": [
-      { "title": "About", "href": "/about" },
-      { "title": "Contact", "href": "/contact" },
-      { "title": "Security", "href": "/security" },
-      { "title": "Privacy", "href": "/privacy" },
-      { "title": "Terms", "href": "/terms" }
+      {
+        "title": "About",
+        "href": "/about"
+      },
+      {
+        "title": "Contact",
+        "href": "/contact"
+      },
+      {
+        "title": "Security",
+        "href": "/security"
+      },
+      {
+        "title": "Privacy",
+        "href": "/privacy"
+      },
+      {
+        "title": "Terms",
+        "href": "/terms"
+      }
     ],
     "languageLabel": "Language",
     "copyright": "Dealup. All rights reserved."

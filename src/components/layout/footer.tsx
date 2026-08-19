@@ -25,17 +25,21 @@ export function Footer({
   return (
     <footer className="bg-brand-dark text-white/80">
       <Container className="py-16">
-        <div className="flex items-start">
-          <div className="col-span-2 flex flex-col gap-3">
+        <div className="grid gap-10 lg:grid-cols-[minmax(0,1.4fr)_repeat(3,minmax(0,1fr))] xl:grid-cols-[minmax(0,1.4fr)_repeat(6,minmax(0,1fr))]">
+          <div className="flex flex-col gap-3">
             <span className="text-xl font-semibold text-white">Dealup</span>
-            <p className="max-w-xs text-sm leading-relaxed text-white/60">
+            <p className="max-w-xs text-sm leading-relaxed text-white/70">
               {dictionary.footer.description}
             </p>
           </div>
-    <div className="flex items-start justify-evenly flex-1">
 
-
-          {columns.map((column) => (
+          {[
+            ...columns,
+            {
+              title: dictionary.footer.columns.company,
+              items: dictionary.footer.companyLinks,
+            },
+          ].map((column) => (
             <div key={column.title} className="flex flex-col gap-3">
               <span className="text-sm font-semibold text-white">{column.title}</span>
               <ul className="flex flex-col gap-2">
@@ -43,7 +47,7 @@ export function Footer({
                   <li key={item.href}>
                     <Link
                       href={localizedHref(locale, item.href)}
-                      className="text-sm text-white/60 transition-colors hover:text-white duration-300 ease-in-out hover:underline"
+                      className="text-sm text-white/70 transition-colors duration-200 hover:text-white hover:underline"
                     >
                       {item.title}
                     </Link>
@@ -52,22 +56,6 @@ export function Footer({
               </ul>
             </div>
           ))}
-    </div>
-          <div className="flex flex-col gap-3">
-            <span className="text-sm font-semibold text-white">{dictionary.footer.columns.company}</span>
-            <ul className="flex flex-col gap-2">
-              {dictionary.footer.companyLinks.map((item) => (
-                <li key={item.href}>
-                  <Link
-                    href={localizedHref(locale, item.href)}
-                    className="text-sm text-white/60 transition-colors hover:text-white"
-                  >
-                    {item.title}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
 
         <div className="mt-14 flex flex-col items-center gap-4 border-t border-white/10 pt-8 sm:flex-row sm:justify-between">

@@ -12,16 +12,18 @@ export function ProductWindow({
   return (
     <div
       className={cn(
-        "overflow-hidden rounded-2xl border border-white/10 bg-white shadow-2xl shadow-ink/20",
+        "overflow-hidden rounded-2xl border border-border/60 bg-white shadow-e4",
         className
       )}
     >
-      <div className="flex items-center gap-2 border-b border-border bg-surface-mint/60 px-4 py-3">
-        <span className="size-2.5 rounded-full bg-[#ff5f57]" />
-        <span className="size-2.5 rounded-full bg-[#febc2e]" />
-        <span className="size-2.5 rounded-full bg-[#28c840]" />
+      <div className="flex items-center gap-2 border-b border-border bg-linear-to-b from-white to-surface-mint/70 px-4 py-3">
+        <span className="size-2.5 rounded-full bg-[#ff5f57]" aria-hidden="true" />
+        <span className="size-2.5 rounded-full bg-[#febc2e]" aria-hidden="true" />
+        <span className="size-2.5 rounded-full bg-[#28c840]" aria-hidden="true" />
         {title ? (
-          <span className="ms-2 text-xs font-medium text-text-muted">{title}</span>
+          <span className="ms-2 truncate text-xs font-medium text-text-secondary">
+            {title}
+          </span>
         ) : null}
       </div>
       <div className="bg-white">{children}</div>

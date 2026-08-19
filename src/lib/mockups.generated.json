@@ -1,0 +1,56 @@
+{
+  "compaign-mockup": {
+    "base": "compaign-mockup",
+    "width": 957,
+    "height": 1407,
+    "variants": [
+      800,
+      957
+    ]
+  },
+  "chats-mockup": {
+    "base": "chats-mockup",
+    "width": 1287,
+    "height": 983,
+    "variants": [
+      800,
+      1287
+    ]
+  },
+  "chats-ai-detail": {
+    "base": "chats-ai-detail",
+    "width": 1350,
+    "height": 985,
+    "variants": [
+      800,
+      1350
+    ]
+  },
+  "automation-template": {
+    "base": "automation-template",
+    "width": 1433,
+    "height": 963,
+    "variants": [
+      800,
+      1433
+    ]
+  },
+  "analytics-mockup": {
+    "base": "analytics-mockup",
+    "width": 1331,
+    "height": 1032,
+    "variants": [
+      800,
+      1331
+    ]
+  },
+  "click-to-whatsapp": {
+    "base": "click-to-whatsapp",
+    "width": 1146,
+    "height": 1307,
+    "variants": [
+      800,
+      1146
+    ]
+  }
+}

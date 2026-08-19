@@ -76,7 +76,7 @@ export default async function LocaleLayout({
           {dictionary.common.skipToContent}
         </a>
         <Navbar locale={locale} dictionary={dictionary} />
-        <main id="main-content" className="flex-1">
+        <main id="main-content" className="flex-1 pt-18">
           {children}
         </main>
         <Footer locale={locale} dictionary={dictionary} />

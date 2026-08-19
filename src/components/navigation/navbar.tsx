@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Container } from "@/components/layout/container";
 import { Button } from "@/components/ui/button";
@@ -15,8 +18,23 @@ export function Navbar({
   locale: Locale;
   dictionary: Dictionary;
 }) {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 30);
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <header className="sticky top-0 z-40 border-b border-border/70 bg-white/85 backdrop-blur-md">
+    <header
+      className={`fixed inset-x-0 top-0 z-40 transition-colors duration-300 ${
+        scrolled
+          ? "border-b border-border/70 bg-white/85 backdrop-blur-md"
+          : "border-b border-transparent bg-transparent "
+      }`}
+    >
       <Container className="flex h-18 items-center justify-between py-3">
         <Link
           href={localizedHref(locale, "/")}
@@ -25,7 +43,7 @@ export function Navbar({
           Dealup
         </Link>
 
-        <nav className="hidden items-center gap-1 lg:flex" aria-label="Main">
+        <nav className="hidden items-center gap-1 text-white lg:flex" aria-label="Main">
           <NavDropdown label={dictionary.nav.products.label} items={dictionary.nav.products.items} locale={locale} />
           <NavDropdown label={dictionary.nav.solutions.label} items={dictionary.nav.solutions.items} locale={locale} />
           <NavDropdown label={dictionary.nav.features.label} items={dictionary.nav.features.items} locale={locale} />

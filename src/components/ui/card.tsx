@@ -1,137 +1,144 @@
 import * as React from "react";
 import { cva, type VariantProps } from "class-variance-authority";
-
 import { cn } from "@/lib/utils/cn";
 
 const cardVariants = cva(
-  "rounded-2xl border transition-all duration-200",
+  "relative flex flex-col rounded-2xl transition-[transform,box-shadow,border-color] duration-300 ease-out",
   {
     variants: {
-      variant: {
-        default:
-          "border-border bg-white text-text-primary",
-
-        elevated:
-          "border-border/60 bg-white text-text-primary shadow-sm hover:shadow-md",
-
-        outline:
-          "border-border bg-transparent text-text-primary hover:border-brand/40",
-
-        mint:
-          "border-brand/10 bg-surface-mint text-text-primary",
-
-        brand:
-          "border-brand bg-brand text-white",
-
-        ai:
-          "border-ai/20 bg-ai/5 text-text-primary",
-
-        interactive:
-          "border-border bg-white text-text-primary shadow-sm hover:-translate-y-0.5 hover:border-brand/30 hover:shadow-md cursor-pointer",
+      tone: {
+        // Light sections: white surface lifted off the page.
+        surface: "border border-border/70 bg-white shadow-e1",
+        // Featured / primary offer.
+        featured: "border border-brand/40 bg-white shadow-e3",
+        // Dark sections (forest / violet): glass over the deep background.
+        glass: "border border-white/12 bg-white/[0.06] backdrop-blur-sm",
       },
-
-      size: {
-        sm: "p-4",
-        default: "p-6",
-        lg: "p-8",
+      interactive: {
+        true: "hover:-translate-y-1",
+        false: "",
+      },
+      padding: {
+        none: "",
+        sm: "p-5",
+        md: "p-6",
+        lg: "p-7 sm:p-8",
       },
     },
-
+    compoundVariants: [
+      {
+        tone: "surface",
+        interactive: true,
+        class: "hover:border-brand/35 hover:shadow-e3",
+      },
+      {
+        tone: "featured",
+        interactive: true,
+        class: "hover:shadow-e4",
+      },
+      {
+        tone: "glass",
+        interactive: true,
+        class: "hover:border-white/25 hover:bg-white/[0.1]",
+      },
+    ],
     defaultVariants: {
-      variant: "default",
-      size: "default",
+      tone: "surface",
+      interactive: false,
+      padding: "md",
     },
   }
 );
 
-interface CardProps
-  extends React.ComponentProps<"div">,
-    VariantProps<typeof cardVariants> {}
-
 function Card({
   className,
-  variant,
+  tone,
+  interactive,
+  padding,
+  ...props
+}: React.ComponentProps<"div"> & VariantProps<typeof cardVariants>) {
+  return (
+    <div
+      className={cn(cardVariants({ tone, interactive, padding, className }))}
+      {...props}
+    />
+  );
+}
+
+const iconTileVariants = cva(
+  "inline-flex shrink-0 items-center justify-center rounded-xl transition-colors duration-300",
+  {
+    variants: {
+      tone: {
+        brand: "bg-brand-dark/6 text-brand-dark ring-1 ring-brand-dark/10",
+        ai: "bg-ai/20 text-ai-on-dark ring-1 ring-ai/35",
+        inverted: "bg-white/10 text-brand ring-1 ring-white/15",
+      },
+      size: {
+        sm: "size-10 [&>svg]:size-5",
+        md: "size-12 [&>svg]:size-6",
+      },
+    },
+    defaultVariants: { tone: "brand", size: "md" },
+  }
+);
+
+/**
+ * Consistent container for a section/feature icon. Keeps icon sizing, stroke
+ * weight and optical alignment uniform instead of bare floating glyphs.
+ */
+function IconTile({
+  className,
+  tone,
   size,
   ...props
-}: CardProps) {
+}: React.ComponentProps<"span"> & VariantProps<typeof iconTileVariants>) {
   return (
-    <div
-      data-slot="card"
-      className={cn(cardVariants({ variant, size }), className)}
+    <span
+      aria-hidden="true"
+      className={cn(iconTileVariants({ tone, size, className }))}
       {...props}
     />
   );
 }
 
-function CardHeader({
-  className,
-  ...props
-}: React.ComponentProps<"div">) {
+/* --- Optional slots, preserved from the original card module --- */
+
+function CardHeader({ className, ...props }: React.ComponentProps<"div">) {
   return (
-    <div
-      data-slot="card-header"
-      className={cn("flex flex-col gap-1.5", className)}
-      {...props}
-    />
+    <div data-slot="card-header" className={cn("flex flex-col gap-1.5", className)} {...props} />
   );
 }
 
-function CardTitle({
-  className,
-  ...props
-}: React.ComponentProps<"h3">) {
+function CardTitle({ className, ...props }: React.ComponentProps<"h3">) {
   return (
     <h3
       data-slot="card-title"
-      className={cn(
-        "text-lg font-semibold leading-tight tracking-tight",
-        className
-      )}
+      className={cn("text-lg font-semibold leading-tight tracking-tight", className)}
       {...props}
     />
   );
 }
 
-function CardDescription({
-  className,
-  ...props
-}: React.ComponentProps<"p">) {
+function CardDescription({ className, ...props }: React.ComponentProps<"p">) {
   return (
     <p
       data-slot="card-description"
-      className={cn(
-        "text-sm leading-relaxed text-text-secondary",
-        className
-      )}
+      className={cn("text-sm text-text-secondary", className)}
       {...props}
     />
   );
 }
 
-function CardContent({
-  className,
-  ...props
-}: React.ComponentProps<"div">) {
-  return (
-    <div
-      data-slot="card-content"
-      className={cn("mt-5", className)}
-      {...props}
-    />
-  );
+function CardContent({ className, ...props }: React.ComponentProps<"div">) {
+  return <div data-slot="card-content" className={cn("mt-5", className)} {...props} />;
 }
 
-function CardFooter({
-  className,
-  ...props
-}: React.ComponentProps<"div">) {
+function CardFooter({ className, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       data-slot="card-footer"
-      className={cn(
-        "mt-6 flex items-center gap-3",
-        className
-      )}
+      className={cn("mt-6 flex items-center gap-3", className)}
       {...props}
     />
   );
@@ -145,4 +152,6 @@ export {
   CardContent,
   CardFooter,
   cardVariants,
+  IconTile,
+  iconTileVariants,
 };

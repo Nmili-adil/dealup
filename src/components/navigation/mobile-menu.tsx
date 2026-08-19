@@ -74,7 +74,7 @@ export function MobileMenu({
                 <nav className="mt-8 flex flex-1 flex-col gap-6">
                   {groups.map((group) => (
                     <div key={group.label} className="flex flex-col gap-2">
-                      <span className="text-sm font-semibold text-text-muted">
+                      <span className="text-sm font-semibold text-text-secondary">
                         {group.label}
                       </span>
                       <ul className="flex flex-col gap-1">

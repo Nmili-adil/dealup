@@ -18,7 +18,7 @@ export function ScrollStory({
   steps: { number: string; title: string; description: string }[];
   visuals: ReactNode[];
 }) {
-  const stepRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const stepRefs = useRef<(HTMLLIElement | null)[]>([]);
   const [activeIndex, setActiveIndex] = useState(0);
   const prefersReducedMotion = useMotionReducedMotion();
 
@@ -54,34 +54,60 @@ export function ScrollStory({
 
   return (
     <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
-      <div className="flex flex-col gap-6">
-        {steps.map((step, index) => (
-          <div
-            key={step.number}
-            ref={(el) => {
-              stepRefs.current[index] = el;
-            }}
-            onMouseEnter={() => setActiveIndex(index)}
-            className={cn(
-              "cursor-default rounded-2xl border p-6 transition-colors",
-              activeIndex === index
-                ? "border-brand/40 bg-surface-mint"
-                : "border-border bg-white"
-            )}
-          >
-            <span
-              className={cn(
-                "text-sm font-semibold",
-                activeIndex === index ? "text-brand-hover" : "text-text-muted"
-              )}
+      {/* Progress rail runs behind the steps so the sequence reads as one path. */}
+      <ol className="relative flex flex-col gap-4">
+        <span
+          aria-hidden="true"
+          className="absolute inset-y-2 start-7 w-px bg-border"
+        />
+
+        {steps.map((step, index) => {
+          const isActive = activeIndex === index;
+          return (
+            <li
+              key={step.number}
+              ref={(el) => {
+                stepRefs.current[index] = el;
+              }}
+              onMouseEnter={() => setActiveIndex(index)}
+              className="relative flex gap-5"
             >
-              {step.number}
-            </span>
-            <h3 className="mt-1 text-xl font-semibold text-text-primary">{step.title}</h3>
-            <p className="mt-2 text-text-secondary">{step.description}</p>
-          </div>
-        ))}
-      </div>
+              <span
+                aria-hidden="true"
+                className={cn(
+                  "relative z-10 mt-1 grid size-14 shrink-0 place-items-center rounded-full border text-sm font-semibold tabular-nums transition-all duration-300",
+                  isActive
+                    ? "border-brand/40 bg-white text-brand-hover shadow-brand"
+                    : "border-border bg-white text-text-secondary"
+                )}
+              >
+                {step.number}
+              </span>
+
+              <div
+                className={cn(
+                  "flex-1 rounded-2xl border p-5 transition-all duration-300",
+                  isActive
+                    ? "border-brand/30 bg-white shadow-e2"
+                    : "border-transparent bg-transparent"
+                )}
+              >
+                <h3
+                  className={cn(
+                    "text-xl font-semibold transition-colors duration-300",
+                    isActive ? "text-text-primary" : "text-text-primary/70"
+                  )}
+                >
+                  {step.title}
+                </h3>
+                <p className="mt-2 leading-relaxed text-text-secondary">
+                  {step.description}
+                </p>
+              </div>
+            </li>
+          );
+        })}
+      </ol>
 
       <div className="lg:sticky lg:top-28 lg:h-fit">
         <AnimatePresence mode="wait">

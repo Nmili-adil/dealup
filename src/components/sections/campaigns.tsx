@@ -1,61 +1,106 @@
-import { Users, FileCheck2, CalendarClock, LineChart } from "lucide-react";
+import { Users, FileCheck2, CalendarClock, LineChart, Send, Eye, BarChart3 } from "lucide-react";
 import { Container } from "@/components/layout/container";
 import { Section } from "@/components/layout/section";
 import { SectionHeader } from "@/components/layout/section-header";
+import { FeatureList } from "@/components/layout/feature-list";
 import { MotionReveal } from "@/components/motion/motion-reveal";
 import { ProductWindow } from "@/components/product/product-window";
 import { MetricCard } from "@/components/product/metric-card";
+import { CampaignChart } from "@/components/product/campaign-chart";
 import type { Dictionary } from "@/lib/i18n/get-dictionary";
+import DotsDiv from "../ui/dotsDiv";
 
-const icons = [Users, FileCheck2, CalendarClock, LineChart];
+const featureIcons = [Users, FileCheck2, CalendarClock, LineChart];
+
+/** Illustrative delivery curve. The final point matches the "Delivered" tile. */
+const DELIVERY_BY_DAY = [420, 1500, 3100, 4250, 6800, 7950, 8210];
+const CHART_MAX = 9000;
+const CHART_TICKS = [
+  { value: 0, label: "0" },
+  { value: 3000, label: "3k" },
+  { value: 6000, label: "6k" },
+  { value: 9000, label: "9k" },
+];
+
+const DELIVERED_PERCENT = 78;
 
 export function Campaigns({
   dictionary,
-  productUi,
 }: {
   dictionary: Dictionary["campaigns"];
-  productUi: Dictionary["productUi"];
 }) {
+  const { panel } = dictionary;
+
   return (
-    <Section tone="light">
+    <Section tone="white">
+      {/* Dotted field in the top corner, as in the reference composition. */}
+      <DotsDiv />
+
       <Container className="grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
-        <div className="flex flex-col gap-8">
+        <MotionReveal x={-24} y={0} className="flex flex-col gap-8">
           <SectionHeader
             eyebrow={dictionary.eyebrow}
             headline={dictionary.headline}
+            highlight={dictionary.highlight}
             description={dictionary.description}
           />
-          <ul className="grid gap-5 sm:grid-cols-2">
-            {dictionary.features.map((feature, index) => {
-              const Icon = icons[index];
-              return (
-                <li key={feature.title} className="flex flex-col gap-2">
-                  <Icon className="size-5 text-brand-hover" aria-hidden="true" />
-                  <span className="font-medium text-text-primary">{feature.title}</span>
-                  <span className="text-sm text-text-secondary">{feature.description}</span>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
+          <FeatureList items={dictionary.features} icons={featureIcons} />
+        </MotionReveal>
 
-        <MotionReveal>
-          <ProductWindow title={productUi.campaignName}>
+        <MotionReveal x={24} y={0} delay={0.1}>
+          <ProductWindow title={panel.title}>
             <div className="flex flex-col gap-4 p-5">
-              <div className="flex items-center justify-between text-sm">
-                <span className="font-medium text-text-primary">{productUi.activeCustomers}</span>
-                <span className="rounded-full bg-surface-mint px-2.5 py-1 text-xs font-medium text-brand-hover">
-                  {productUi.scheduled}
+              {/* Audience + live status */}
+              <div className="flex items-center justify-between gap-3">
+                <span className="text-sm font-medium text-text-primary">
+                  {panel.audience}
+                </span>
+                <span className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-surface-mint px-2.5 py-1 text-[11px] font-medium text-brand-hover">
+                  <span className="size-1.5 rounded-full bg-brand" aria-hidden="true" />
+                  {panel.status}
                 </span>
               </div>
-              <div className="h-2 w-full overflow-hidden rounded-full bg-surface-mint">
-                <div className="h-full w-3/4 rounded-full bg-brand" />
+
+              {/* Delivery progress */}
+              <div className="flex items-center gap-3">
+                <div
+                  className="h-1.5 flex-1 overflow-hidden rounded-full bg-surface-mint"
+                  role="progressbar"
+                  aria-label={panel.progressLabel}
+                  aria-valuenow={DELIVERED_PERCENT}
+                  aria-valuemin={0}
+                  aria-valuemax={100}
+                >
+                  <div
+                    className="h-full rounded-full bg-linear-to-r from-brand to-brand-hover"
+                    style={{ width: `${DELIVERED_PERCENT}%` }}
+                  />
+                </div>
+                <span className="shrink-0 text-[11px] font-medium tabular-nums text-text-secondary">
+                  {DELIVERED_PERCENT}%
+                </span>
               </div>
-              <div className="grid grid-cols-3 gap-3">
-                <MetricCard label={productUi.delivered} value="8 210" />
-                <MetricCard label={productUi.read} value="91%" />
-                <MetricCard label={productUi.converted} value="312" trend="+9%" />
+
+              {/* Headline metrics */}
+              <div className="grid grid-cols-3 gap-2.5">
+                <MetricCard icon={Send} label={panel.delivered} value="8 210" />
+                <MetricCard icon={Eye} label={panel.read} value="91%" />
+                <MetricCard
+                  icon={BarChart3}
+                  label={panel.conversions}
+                  value="312"
+                  trend="24%"
+                />
               </div>
+
+              <CampaignChart
+                points={DELIVERY_BY_DAY}
+                days={panel.days}
+                ticks={CHART_TICKS}
+                max={CHART_MAX}
+                summary={panel.chartSummary}
+                className="pt-1"
+              />
             </div>
           </ProductWindow>
         </MotionReveal>

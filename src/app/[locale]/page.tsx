@@ -33,16 +33,20 @@ export default async function HomePage({
   return (
     <>
       <JsonLd data={buildFaqJsonLd(dictionary.faq.items)} />
+
+      {/* Section tones alternate deliberately: light surfaces carry the product
+          story, the two dark beats (TeamInbox / AiAgents) break the scroll, and
+          the mint beats group the "why + how" moments. */}
       <Hero locale={locale} dictionary={dictionary.hero} />
       <Trust dictionary={dictionary.trust} />
       <Problem dictionary={dictionary.problem} />
-      <PlatformStory dictionary={dictionary.platformStory} productUi={dictionary.productUi} />
-      <Campaigns dictionary={dictionary.campaigns} productUi={dictionary.productUi} />
-      <TeamInbox dictionary={dictionary.teamInbox} />
-      <Automation dictionary={dictionary.automation} />
-      <AiAgents dictionary={dictionary.aiAgents} productUi={dictionary.productUi} />
-      <MoroccanSolutions dictionary={dictionary.moroccanSolutions} />
-      <ClickToWhatsapp dictionary={dictionary.clickToWhatsapp} />
+      <PlatformStory dictionary={dictionary.platformStory} />
+      <Campaigns dictionary={dictionary.campaigns} />
+      {/* <TeamInbox dictionary={dictionary.teamInbox} /> */}
+      {/* <Automation dictionary={dictionary.automation} /> */}
+      {/* <AiAgents dictionary={dictionary.aiAgents} productUi={dictionary.productUi} /> */}
+      {/* <MoroccanSolutions dictionary={dictionary.moroccanSolutions} /> */}
+      <ClickToWhatsapp locale={locale} dictionary={dictionary.clickToWhatsapp} />
       <Analytics dictionary={dictionary.analytics} />
       <CustomerStory dictionary={dictionary.customerStory} />
       <Integrations dictionary={dictionary.integrations} />

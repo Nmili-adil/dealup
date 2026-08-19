@@ -10,7 +10,7 @@ export function Automation({ dictionary }: { dictionary: Dictionary["automation"
   const { workflow } = dictionary;
 
   return (
-    <Section tone="mint">
+    <Section tone="mint" decoration="glow">
       <Container className="flex flex-col items-center gap-14">
         <SectionHeader
           align="center"
@@ -19,23 +19,28 @@ export function Automation({ dictionary }: { dictionary: Dictionary["automation"
           description={dictionary.description}
         />
 
-        <MotionReveal className="flex w-full max-w-lg flex-col items-center">
-          <WorkflowNode icon={Zap} label={workflow.trigger} />
-          <WorkflowConnector />
-          <WorkflowNode icon={Sparkles} label={workflow.step} tone="brand" />
-          <WorkflowConnector />
-          <span className="text-xs font-medium text-text-muted">{workflow.scoreLabel}</span>
-          <WorkflowConnector direction="split" />
-          <div className="grid w-full grid-cols-2 gap-8 pt-2">
-            <div className="flex flex-col items-center gap-2">
-              <WorkflowNode icon={Flame} label={workflow.hot} tone="hot" />
-              <WorkflowConnector />
-              <WorkflowNode icon={UserCheck2} label={workflow.hotAction} />
-            </div>
-            <div className="flex flex-col items-center gap-2">
-              <WorkflowNode icon={Snowflake} label={workflow.cold} tone="cold" />
-              <WorkflowConnector />
-              <WorkflowNode icon={Repeat2} label={workflow.coldAction} />
+        <MotionReveal className="w-full max-w-lg">
+          <div className="flex flex-col items-center rounded-3xl border border-border/70 bg-white/70 p-8 shadow-e2 backdrop-blur-sm">
+            <WorkflowNode icon={Zap} label={workflow.trigger} />
+            <WorkflowConnector />
+            <WorkflowNode icon={Sparkles} label={workflow.step} tone="brand" />
+            <WorkflowConnector />
+            <span className="rounded-full bg-surface-mint px-3 py-1 text-xs font-semibold text-brand-hover">
+              {workflow.scoreLabel}
+            </span>
+            <WorkflowConnector direction="split" />
+
+            <div className="grid w-full grid-cols-2 gap-6 pt-2 sm:gap-8">
+              <div className="flex flex-col items-center gap-2">
+                <WorkflowNode icon={Flame} label={workflow.hot} tone="hot" />
+                <WorkflowConnector />
+                <WorkflowNode icon={UserCheck2} label={workflow.hotAction} />
+              </div>
+              <div className="flex flex-col items-center gap-2">
+                <WorkflowNode icon={Snowflake} label={workflow.cold} tone="cold" />
+                <WorkflowConnector />
+                <WorkflowNode icon={Repeat2} label={workflow.coldAction} />
+              </div>
             </div>
           </div>
         </MotionReveal>

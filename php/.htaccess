@@ -1,0 +1,10 @@
+# Apache: the site posts to /leads (no extension, no trailing slash).
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^leads/?$ leads.php [L]
+</IfModule>
+
+# Never serve the credentials file, even if PHP is disabled.
+<Files "config.php">
+    Require all denied
+</Files>

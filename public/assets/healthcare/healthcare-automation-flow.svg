@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+  <defs><filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#06402f" flood-opacity=".15"/></filter></defs>
+  <rect width="1536" height="1024" rx="64" fill="#fffaf1"/>
+  <circle cx="1320" cy="130" r="260" fill="#9fc6d7" opacity=".23"/>
+  <circle cx="180" cy="860" r="260" fill="#25d366" opacity=".10"/>
+  <g filter="url(#s)">
+    <rect x="166" y="116" width="1204" height="792" rx="44" fill="#fff"/>
+    <rect x="218" y="176" width="340" height="84" rx="24" fill="#06402f"/>
+    <text x="258" y="226" font-family="Arial" font-size="22" font-weight="800" fill="#fff">New patient enquiry</text>
+    <path d="M558 218h136" stroke="#25d366" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 12"/>
+    <rect x="694" y="176" width="278" height="84" rx="24" fill="#eef8f4" stroke="#cde8dc"/>
+    <text x="736" y="226" font-family="Arial" font-size="22" font-weight="800" fill="#06402f">Book a slot</text>
+    <path d="M972 218h132" stroke="#25d366" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 12"/>
+    <rect x="1104" y="176" width="214" height="84" rx="24" fill="#fff7e8" stroke="#edd6a7"/>
+    <text x="1146" y="226" font-family="Arial" font-size="22" font-weight="800" fill="#7c4a03">Confirm</text>
+
+    <path d="M833 260v118" stroke="#25d366" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 12"/>
+    <rect x="566" y="378" width="536" height="104" rx="28" fill="#f9fafb" stroke="#e5e7eb"/>
+    <text x="610" y="420" font-family="Arial" font-size="19" font-weight="800" fill="#111827">Reminder sequence</text>
+    <text x="610" y="452" font-family="Arial" font-size="17" fill="#6b7280">24h before - 2h before - reschedule if needed</text>
+    <path d="M834 482v104" stroke="#25d366" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 12"/>
+    <rect x="414" y="586" width="314" height="96" rx="26" fill="#eef8f4" stroke="#cde8dc"/>
+    <text x="454" y="624" font-family="Arial" font-size="20" font-weight="800" fill="#06402f">Patient confirms</text>
+    <text x="454" y="656" font-family="Arial" font-size="16" fill="#047857">Update the calendar</text>
+    <rect x="940" y="586" width="314" height="96" rx="26" fill="#fff7e8" stroke="#edd6a7"/>
+    <text x="980" y="624" font-family="Arial" font-size="20" font-weight="800" fill="#7c4a03">Needs help</text>
+    <text x="980" y="656" font-family="Arial" font-size="16" fill="#8a602f">Route to staff</text>
+    <path d="M834 482v52h263v52M834 534H571v52" stroke="#25d366" stroke-width="5" fill="none" stroke-linecap="round" stroke-dasharray="10 12"/>
+
+    <rect x="454" y="748" width="628" height="84" rx="26" fill="#06402f"/>
+    <text x="510" y="800" font-family="Arial" font-size="21" font-weight="800" fill="#fff">Post-visit follow-up, in the patient's language</text>
+  </g>
+</svg>

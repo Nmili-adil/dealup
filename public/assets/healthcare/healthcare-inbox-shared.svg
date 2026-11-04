@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+  <defs><filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="24" stdDeviation="26" flood-color="#06402f" flood-opacity=".14"/></filter></defs>
+  <rect width="1536" height="1024" rx="64" fill="#ffffff"/>
+  <circle cx="1300" cy="160" r="260" fill="#25d366" opacity=".10"/>
+  <g filter="url(#s)">
+    <rect x="118" y="126" width="1300" height="772" rx="42" fill="#fff" stroke="#e5e7eb"/>
+    <rect x="118" y="126" width="1300" height="84" rx="42" fill="#06402f"/>
+    <rect x="118" y="168" width="1300" height="42" fill="#06402f"/>
+    <text x="176" y="178" font-family="Arial" font-size="24" font-weight="800" fill="#fff">Shared patient inbox</text>
+    <rect x="118" y="210" width="342" height="688" fill="#f9fafb"/>
+    <rect x="146" y="252" width="286" height="86" rx="22" fill="#eef8f4"/>
+    <text x="178" y="290" font-family="Arial" font-size="17" font-weight="800" fill="#111827">Salma B.</text>
+    <text x="178" y="318" font-family="Arial" font-size="14" fill="#6b7280">Confirmed - Friday 10:30</text>
+    <rect x="146" y="362" width="286" height="86" rx="22" fill="#fff" stroke="#e5e7eb"/>
+    <text x="178" y="400" font-family="Arial" font-size="17" font-weight="800" fill="#111827">Youssef K.</text>
+    <text x="178" y="428" font-family="Arial" font-size="14" fill="#6b7280">Question about coverage</text>
+    <rect x="146" y="472" width="286" height="86" rx="22" fill="#fff" stroke="#e5e7eb"/>
+    <text x="178" y="510" font-family="Arial" font-size="17" font-weight="800" fill="#111827">Mina R.</text>
+    <text x="178" y="538" font-family="Arial" font-size="14" fill="#6b7280">Needs lab preparation</text>
+
+    <line x1="460" x2="460" y1="210" y2="898" stroke="#e5e7eb"/>
+    <line x1="1040" x2="1040" y1="210" y2="898" stroke="#e5e7eb"/>
+    <rect x="512" y="276" width="358" height="74" rx="24" fill="#dcfce7"/>
+    <text x="548" y="321" font-family="Arial" font-size="17" fill="#06402f">Can I confirm Friday at 10:30?</text>
+    <rect x="614" y="390" width="358" height="98" rx="24" fill="#f3f4f6"/>
+    <text x="650" y="430" font-family="Arial" font-size="17" fill="#111827">Confirmed. You will receive</text>
+    <text x="650" y="460" font-family="Arial" font-size="17" fill="#111827">a reminder tomorrow.</text>
+    <rect x="512" y="538" width="414" height="74" rx="24" fill="#dcfce7"/>
+    <text x="548" y="583" font-family="Arial" font-size="17" fill="#06402f">Please send it in Arabic.</text>
+    <rect x="614" y="652" width="332" height="92" rx="24" fill="#f3f4f6"/>
+    <text x="650" y="690" font-family="Arial" font-size="17" fill="#111827">No problem. Your follow-up</text>
+    <text x="650" y="720" font-family="Arial" font-size="17" fill="#111827">will be in Arabic.</text>
+
+    <text x="1090" y="264" font-family="Arial" font-size="16" font-weight="800" fill="#6b7280">Patient context</text>
+    <rect x="1088" y="302" width="276" height="56" rx="16" fill="#f9fafb" stroke="#e5e7eb"/>
+    <text x="1112" y="337" font-family="Arial" font-size="15" fill="#111827">Service: Consultation</text>
+    <rect x="1088" y="378" width="276" height="56" rx="16" fill="#f9fafb" stroke="#e5e7eb"/>
+    <text x="1112" y="413" font-family="Arial" font-size="15" fill="#111827">Language: Arabic</text>
+    <rect x="1088" y="454" width="276" height="56" rx="16" fill="#f9fafb" stroke="#e5e7eb"/>
+    <text x="1112" y="489" font-family="Arial" font-size="15" fill="#111827">Next: Fri 10:30</text>
+    <rect x="1088" y="562" width="276" height="138" rx="22" fill="#eef8f4"/>
+    <text x="1112" y="600" font-family="Arial" font-size="15" font-weight="800" fill="#06402f">Internal note</text>
+    <text x="1112" y="632" font-family="Arial" font-size="14" fill="#047857">Billing question answered.</text>
+    <text x="1112" y="660" font-family="Arial" font-size="14" fill="#047857">Doctor handoff if pain returns.</text>
+  </g>
+</svg>

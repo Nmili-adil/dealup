@@ -1,0 +1,626 @@
+{
+  "compaign-mockup": {
+    "base": "compaign-mockup",
+    "width": 957,
+    "height": 1407,
+    "variants": [
+      800,
+      957
+    ]
+  },
+  "chats-mockup": {
+    "base": "chats-mockup",
+    "width": 1287,
+    "height": 983,
+    "variants": [
+      800,
+      1287
+    ]
+  },
+  "chats-ai-detail": {
+    "base": "chats-ai-detail",
+    "width": 1350,
+    "height": 985,
+    "variants": [
+      800,
+      1350
+    ]
+  },
+  "automation-template": {
+    "base": "automation-template",
+    "width": 1299,
+    "height": 1061,
+    "variants": [
+      800,
+      1299
+    ]
+  },
+  "analytics-mockup": {
+    "base": "analytics-mockup",
+    "width": 1331,
+    "height": 1032,
+    "variants": [
+      800,
+      1331
+    ]
+  },
+  "click-to-whatsapp": {
+    "base": "click-to-whatsapp",
+    "width": 1146,
+    "height": 1307,
+    "variants": [
+      800,
+      1146
+    ]
+  },
+  "hero-customer": {
+    "base": "hero-customer",
+    "width": 481,
+    "height": 1488,
+    "variants": [
+      481
+    ]
+  },
+  "hero-commerce-phone": {
+    "base": "hero-commerce-phone",
+    "width": 800,
+    "height": 1386,
+    "variants": [
+      800
+    ]
+  },
+  "whatsappbusiness-api": {
+    "base": "whatsappbusiness-api",
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      800,
+      1600,
+      1672
+    ]
+  },
+  "product-bag": {
+    "base": "product-bag",
+    "width": 398,
+    "height": 164,
+    "variants": [
+      398
+    ]
+  },
+  "wba-campaign": {
+    "base": "whatsappbusinessapi-assets/compaign-mockup",
+    "width": 1086,
+    "height": 1448,
+    "variants": [
+      800,
+      1086
+    ]
+  },
+  "wba-chatbot": {
+    "base": "whatsappbusinessapi-assets/chatbot-mockup",
+    "width": 989,
+    "height": 1454,
+    "variants": [
+      800,
+      989
+    ]
+  },
+  "wba-notifications": {
+    "base": "whatsappbusinessapi-assets/automated-notification",
+    "width": 1325,
+    "height": 1060,
+    "variants": [
+      800,
+      1325
+    ]
+  },
+  "wba-verification": {
+    "base": "whatsappbusinessapi-assets/meta-verification-badge",
+    "width": 1122,
+    "height": 1402,
+    "variants": [
+      800,
+      1122
+    ]
+  },
+  "wba-analytics": {
+    "base": "whatsappbusinessapi-assets/analytics-mockup",
+    "width": 1652,
+    "height": 847,
+    "variants": [
+      800,
+      1600,
+      1652
+    ]
+  },
+  "forms-hero": {
+    "base": "whatsapp-forms/forms-hero",
+    "width": 1436,
+    "height": 1067,
+    "variants": [
+      800,
+      1436
+    ]
+  },
+  "forms-quote": {
+    "base": "whatsapp-forms/forms-quote",
+    "width": 725,
+    "height": 1370,
+    "variants": [
+      725
+    ]
+  },
+  "forms-flow": {
+    "base": "whatsapp-forms/forms-flow",
+    "width": 1399,
+    "height": 831,
+    "variants": [
+      800,
+      1399
+    ]
+  },
+  "forms-inbox": {
+    "base": "whatsapp-forms/forms-inbox",
+    "width": 1404,
+    "height": 894,
+    "variants": [
+      800,
+      1404
+    ]
+  },
+  "forms-lang-fr": {
+    "base": "whatsapp-forms/forms-lang-fr",
+    "width": 712,
+    "height": 1426,
+    "variants": [
+      712
+    ]
+  },
+  "forms-lang-ar": {
+    "base": "whatsapp-forms/forms-lang-ar",
+    "width": 765,
+    "height": 1500,
+    "variants": [
+      765
+    ]
+  },
+  "forms-lang-en": {
+    "base": "whatsapp-forms/forms-lang-en",
+    "width": 694,
+    "height": 1355,
+    "variants": [
+      694
+    ]
+  },
+  "cb-hero": {
+    "base": "chatbot-page/cb-hero",
+    "width": 1349,
+    "height": 1036,
+    "variants": [
+      800,
+      1349
+    ]
+  },
+  "cb-flow": {
+    "base": "chatbot-page/cb-flow",
+    "width": 1605,
+    "height": 851,
+    "variants": [
+      800,
+      1600,
+      1605
+    ]
+  },
+  "cb-ai": {
+    "base": "chatbot-page/cb-ai",
+    "width": 1422,
+    "height": 862,
+    "variants": [
+      800,
+      1422
+    ]
+  },
+  "cb-handover": {
+    "base": "chatbot-page/cb-handover",
+    "width": 1367,
+    "height": 929,
+    "variants": [
+      800,
+      1367
+    ]
+  },
+  "about-hero": {
+    "base": "about-hero",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      800,
+      1536
+    ]
+  },
+  "about-workflow": {
+    "base": "about-workflow",
+    "width": 1774,
+    "height": 887,
+    "variants": [
+      800,
+      1600,
+      1774
+    ]
+  },
+  "about-industries": {
+    "base": "about-industries",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      800,
+      1536
+    ]
+  },
+  "about-principles": {
+    "base": "about-principles",
+    "width": 1122,
+    "height": 1402,
+    "variants": [
+      800,
+      1122
+    ]
+  },
+  "book-demo-hero": {
+    "base": "book-demo-hero",
+    "width": 1402,
+    "height": 1122,
+    "variants": [
+      800,
+      1402
+    ]
+  },
+  "book-demo-agenda": {
+    "base": "book-demo-agenda",
+    "width": 1122,
+    "height": 1402,
+    "variants": [
+      800,
+      1122
+    ]
+  },
+  "contact-hero": {
+    "base": "contact-hero",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      800,
+      1536
+    ]
+  },
+  "contact-paths": {
+    "base": "contact-paths",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      800,
+      1536
+    ]
+  },
+  "campaign-creative-fashion": {
+    "base": "campaign-creative-fashion",
+    "width": 1942,
+    "height": 809,
+    "variants": [
+      800,
+      1600,
+      1942
+    ]
+  },
+  "campaign-creative-ceramics": {
+    "base": "campaign-creative-ceramics",
+    "width": 1942,
+    "height": 809,
+    "variants": [
+      800,
+      1600,
+      1942
+    ]
+  },
+  "campaign-creative-beauty": {
+    "base": "campaign-creative-beauty",
+    "width": 1942,
+    "height": 809,
+    "variants": [
+      800,
+      1600,
+      1942
+    ]
+  },
+  "marketing-builder": {
+    "base": "marketing-builder",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      800,
+      1536
+    ]
+  },
+  "marketing-segmentation": {
+    "base": "marketing-segmentation",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      800,
+      1536
+    ]
+  },
+  "ecommerce-catalog-orders": {
+    "base": "ecommerce/catalog-orders-mockup",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      800,
+      1536
+    ]
+  },
+  "real-estate-hero": {
+    "base": "real-estate/real-estate-hero-mockup",
+    "width": 1307,
+    "height": 903,
+    "variants": [
+      800,
+      1307
+    ]
+  },
+  "education-admissions-flow": {
+    "base": "education/education-admissions-flow",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      800,
+      1536
+    ]
+  },
+  "healthcare-hero": {
+    "base": "healthcare/healthcare-hero-mockup",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      800,
+      1536
+    ]
+  },
+  "sales-scoring": {
+    "base": "sales-scoring",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      800,
+      1536
+    ]
+  },
+  "sales-pipeline": {
+    "base": "sales-pipeline",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      800,
+      1536
+    ]
+  },
+  "sales-quote-card": {
+    "base": "sales-quote-card",
+    "width": 1024,
+    "height": 1536,
+    "variants": [
+      800,
+      1024
+    ]
+  },
+  "sales-team": {
+    "base": "sales-team",
+    "width": 1942,
+    "height": 809,
+    "variants": [
+      800,
+      1600,
+      1942
+    ]
+  },
+  "hotels-hero-command-center": {
+    "base": "hotels/hotels-hero-command-center",
+    "width": 1363,
+    "height": 846,
+    "variants": [
+      800,
+      1363
+    ]
+  },
+  "hotels-guest-inbox": {
+    "base": "hotels/hotels-guest-inbox",
+    "width": 1186,
+    "height": 735,
+    "variants": [
+      800,
+      1186
+    ]
+  },
+  "hotels-ai-concierge": {
+    "base": "hotels/hotels-ai-concierge",
+    "width": 1080,
+    "height": 713,
+    "variants": [
+      800,
+      1080
+    ]
+  },
+  "hotels-routing-automation": {
+    "base": "hotels/hotels-routing-automation",
+    "width": 1196,
+    "height": 675,
+    "variants": [
+      800,
+      1196
+    ]
+  },
+  "hotels-analytics-dashboard": {
+    "base": "hotels/hotels-analytics-dashboard",
+    "width": 1196,
+    "height": 710,
+    "variants": [
+      800,
+      1196
+    ]
+  },
+  "healthcare-results-secure": {
+    "base": "healthcare-results-secure",
+    "width": 1774,
+    "height": 887,
+    "variants": [
+      800,
+      1600,
+      1774
+    ]
+  },
+  "healthcare-analytics": {
+    "base": "healthcare-analytics",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      800,
+      1536
+    ]
+  },
+  "healthcare-reception": {
+    "base": "healthcare-reception",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      800,
+      1536
+    ]
+  },
+  "finance-insurance-secure-link": {
+    "base": "finance-insurance-secure-link",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      800,
+      1536
+    ]
+  },
+  "finance-insurance-analytics": {
+    "base": "finance-insurance-analytics",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      800,
+      1536
+    ]
+  },
+  "analytics-hero": {
+    "base": "features/analytics-hero",
+    "width": 1472,
+    "height": 972,
+    "variants": [
+      800,
+      1472
+    ]
+  },
+  "campaigns-hero": {
+    "base": "features/campaigns-hero",
+    "width": 1489,
+    "height": 961,
+    "variants": [
+      800,
+      1489
+    ]
+  },
+  "automations-hero": {
+    "base": "features/automations-hero",
+    "width": 1410,
+    "height": 948,
+    "variants": [
+      800,
+      1410
+    ]
+  },
+  "ai-agents-hero": {
+    "base": "features/ai-agents-hero",
+    "width": 1514,
+    "height": 851,
+    "variants": [
+      800,
+      1514
+    ]
+  },
+  "click-to-whatsapp-ads-hero": {
+    "base": "features/click-to-whatsapp-ads-hero",
+    "width": 1499,
+    "height": 827,
+    "variants": [
+      800,
+      1499
+    ]
+  },
+  "contacts-hero": {
+    "base": "features/contacts-hero",
+    "width": 1524,
+    "height": 961,
+    "variants": [
+      800,
+      1524
+    ]
+  },
+  "team-inbox-hero": {
+    "base": "features/team-inbox-hero",
+    "width": 1512,
+    "height": 936,
+    "variants": [
+      800,
+      1512
+    ]
+  },
+  "whatsapp-flows-hero": {
+    "base": "features/whatsapp-flows-hero",
+    "width": 1475,
+    "height": 972,
+    "variants": [
+      800,
+      1475
+    ]
+  },
+  "whatsapp-link-qr-hero": {
+    "base": "features/whatsapp-link-qr-hero",
+    "width": 1499,
+    "height": 962,
+    "variants": [
+      800,
+      1499
+    ]
+  },
+  "showroom-kit-hero": {
+    "base": "features/showroom-kit-hero",
+    "width": 1404,
+    "height": 950,
+    "variants": [
+      800,
+      1404
+    ]
+  },
+  "whatsapp-marketing-hero": {
+    "base": "features/whatsapp-marketing-hero",
+    "width": 1343,
+    "height": 1014,
+    "variants": [
+      800,
+      1343
+    ]
+  },
+  "cta-background": {
+    "base": "features/CTA-background",
+    "width": 1916,
+    "height": 821,
+    "variants": [
+      800,
+      1600,
+      1916
+    ]
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "title": "Agencies on WhatsApp | Dealup",
+    "description": "Run client WhatsApp campaigns and conversations from one shared, white-labeled inbox. Manage many accounts without the ops overhead."
+  },
+  "hero": {
+    "breadcrumb": "Agencies",
+    "badge": "For agencies & resellers",
+    "headlineLead": "Run client campaigns on WhatsApp, ",
+    "headlineAccent": "from one shared inbox.",
+    "description": "Your clients want to market, sell and support on WhatsApp. Dealup gives agencies a shared inbox for campaigns and support across accounts, without each client living on a personal phone.",
+    "imageAlt": "An agency team managing campaigns and conversations for multiple client accounts inside the Dealup inbox"
+  },
+  "problem": {
+    "eyebrow": "The challenge",
+    "title": "Clients want WhatsApp; agencies absorb the complexity",
+    "description": "Clients ask you to run broadcasts, automations and customer support on WhatsApp, but each account arrives as a disconnected inbox and a tangle of phone numbers. Scaling that means more chaos, not more margin.",
+    "points": [
+      "Every client inbox lives somewhere different, hard to manage or monitor",
+      "Broadcasts and automations are hard to build and reuse across accounts",
+      "Support questions fall through when teams juggle many clients on chat",
+      "Clients judge you by fast, on-brand response that disconnected tools can't deliver"
+    ]
+  },
+  "benefits": {
+    "eyebrow": "Why it matters",
+    "title": "Scale client work without scaling the mess",
+    "items": [
+      {
+        "title": "One hub, many accounts",
+        "description": "Manage campaigns and conversations across clients from one shared platform."
+      },
+      {
+        "title": "Reuse what works",
+        "description": "Bring templates, Flows and automations across accounts without rebuilding."
+      },
+      {
+        "title": "Faster, more on-brand responses",
+        "description": "Shared inboxes and AI keep every client's customers answered and routed."
+      },
+      {
+        "title": "Proof your impact",
+        "description": "Report on campaigns and support performance with clean, client-ready metrics."
+      }
+    ]
+  },
+  "capabilities": {
+    "eyebrow": "What you get",
+    "title": "The agency toolkit in your WhatsApp inbox",
+    "description": "From campaign setup to daily support, run client operations on one platform.",
+    "items": [
+      {
+        "title": "Multi-account inbox management",
+        "description": "Keep each client's conversations separate and organized.",
+        "points": [
+          "One shared inbox per client account, from the same platform",
+          "Team assignment and routing per account",
+          "Clean handoff between agency and client-side teammates"
+        ]
+      },
+      {
+        "title": "Campaigns & automations at volume",
+        "description": "Build once, adapt per client.",
+        "points": [
+          "Approved-template broadcasts scaled across accounts",
+          "Flows and automations you can adapt and deploy",
+          "Opt-in and consent controls built into every audience"
+        ]
+      },
+      {
+        "title": "24/7 client coverage",
+        "description": "No enquiries go unanswered while you manage many clients.",
+        "points": [
+          "AI answers FAQs and qualifies leads automatically",
+          "Urgency and assignment rules per client",
+          "Full conversation history for each recipient, per account"
+        ]
+      },
+      {
+        "title": "Reporting & value proof",
+        "description": "Show clients the return on WhatsApp.",
+        "points": [
+          "Campaign and support performance you can present cleanly",
+          "Audience and conversion metrics per account",
+          "Data you can export into your agency reports"
+        ]
+      }
+    ]
+  },
+  "useCases": {
+    "eyebrow": "Where it fits",
+    "title": "Built for how agencies actually sell and serve on WhatsApp",
+    "items": [
+      {
+        "title": "Marketing agencies",
+        "description": "Run broadcasts and lead-gen campaigns for many clients from one place."
+      },
+      {
+        "title": "Sales-outsourcing & lead-gen shops",
+        "description": "Qualify and route conversations for clients who want you to own the funnel."
+      },
+      {
+        "title": "Support & CX outsourcers",
+        "description": "Handle customer support across accounts with assigned, measurable inboxes."
+      },
+      {
+        "title": "Resellers & white-label partners",
+        "description": "Bring WhatsApp capabilities to your client base without building infrastructure."
+      }
+    ]
+  },
+  "comparison": {
+    "eyebrow": "Manual vs. with Dealup",
+    "title": "Agency WhatsApp work without Dealup vs. with Dealup",
+    "description": "Whether operations feel like leverage or chaos comes down to how you manage the inbox.",
+    "manualLabel": "Without Dealup",
+    "dealupLabel": "Dealup for agencies",
+    "rows": [
+      {
+        "label": "Account management",
+        "manual": "A different inbox and phone per client",
+        "dealup": "One platform, one organized inbox per client"
+      },
+      {
+        "label": "Content reuse",
+        "manual": "Rebuild Flows and templates per client",
+        "dealup": "Reuse, adapt and deploy across accounts"
+      },
+      {
+        "label": "Response coverage",
+        "manual": "Messages wait for whichever account is being watched",
+        "dealup": "AI and routing keep every account covered"
+      },
+      {
+        "label": "Client handoff",
+        "manual": "Rough handoffs between agency and client",
+        "dealup": "Clean assignment with shared conversation history"
+      },
+      {
+        "label": "Proof of value",
+        "manual": "Hard to show what's working",
+        "dealup": "Client-ready reporting per account"
+      }
+    ]
+  },
+  "related": {
+    "title": "Works with",
+    "items": [
+      {
+        "title": "Campaigns",
+        "description": "Broadcast at scale across accounts, on approved templates.",
+        "href": "/features/campaigns"
+      },
+      {
+        "title": "Team Inbox",
+        "description": "One organized inbox per client account, shared with your team.",
+        "href": "/features/team-inbox"
+      },
+      {
+        "title": "Automations",
+        "description": "Qualify, route and follow up on conversations automatically.",
+        "href": "/features/automations"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "Can agencies manage many client accounts from Dealup?",
+        "answer": "Yes. Each client account gets its own organized shared inbox inside the same platform, with per-account assignment and routing so conversations stay separate and accountable."
+      },
+      {
+        "question": "Can I reuse Flows and campaigns across accounts?",
+        "answer": "Yes. Approved templates, Flows and automations can be adapted and deployed across client accounts instead of rebuilt from scratch for each one."
+      },
+      {
+        "question": "How does support coverage work across clients?",
+        "answer": "AI answers FAQs and qualifies leads automatically, urgency and assignment rules are set per client, and full conversation history stays attached per account."
+      },
+      {
+        "question": "Can we hand conversations back to a client's team cleanly?",
+        "answer": "Yes. Shared inboxes allow smooth assignment between agency and client-side teammates, with the full conversation history following the handoff."
+      },
+      {
+        "question": "How do agencies report on results?",
+        "answer": "Campaign and support metrics are available per account and can be exported or incorporated into your agency's client reporting."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Scale client work on WhatsApp",
+    "description": "Run many client accounts from one shared inbox and make WhatsApp a line item clients renew."
+  }
+}

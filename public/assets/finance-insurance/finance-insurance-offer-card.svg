@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1122" height="1402" viewBox="0 0 1122 1402" role="img" aria-labelledby="title desc">
+  <title id="title">Finance offer and reminder card</title>
+  <desc id="desc">A WhatsApp-style card with policy renewal and loan offer messages.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06402F"/><stop offset="1" stop-color="#0C7C59"/></linearGradient><filter id="shadow" x="-20%" y="-20%" width="140%" height="145%"><feDropShadow dx="0" dy="32" stdDeviation="34" flood-color="#06402F" flood-opacity="0.22"/></filter></defs>
+  <rect width="1122" height="1402" rx="76" fill="url(#bg)"/>
+  <circle cx="934" cy="174" r="230" fill="#93E0BE" opacity="0.16"/>
+  <circle cx="132" cy="1220" r="270" fill="#E8B45D" opacity="0.16"/>
+  <g filter="url(#shadow)" font-family="Inter,Arial,sans-serif">
+    <rect x="126" y="126" width="870" height="1150" rx="52" fill="#F8FAF6"/>
+    <rect x="126" y="126" width="870" height="132" rx="52" fill="#fff"/><text x="194" y="206" font-size="34" font-weight="800" fill="#06402F">Opted-in client updates</text>
+    <rect x="194" y="328" width="606" height="154" rx="34" fill="#fff"/><text x="242" y="386" font-size="26" font-weight="800" fill="#06402F">Policy renewal reminder</text><text x="242" y="428" font-size="21" fill="#66756F">Your cover ends on Friday. Renew securely when ready.</text>
+    <rect x="322" y="536" width="580" height="138" rx="34" fill="#DCF7E8"/><text x="370" y="592" font-size="24" font-weight="800" fill="#06402F">Renew through secure link</text><text x="370" y="632" font-size="19" fill="#28584A">Action tracked · advisor notified</text>
+    <rect x="194" y="746" width="650" height="176" rx="34" fill="#fff"/><text x="242" y="804" font-size="26" font-weight="800" fill="#06402F">Pre-approved loan offer</text><text x="242" y="846" font-size="21" fill="#66756F">Available for your business profile. Reply to speak with an advisor.</text><rect x="242" y="874" width="174" height="40" rx="20" fill="#06402F"/><text x="272" y="901" font-size="16" font-weight="800" fill="#fff">Talk to advisor</text>
+    <rect x="194" y="994" width="560" height="132" rx="34" fill="#FFF6E7"/><text x="242" y="1048" font-size="24" font-weight="800" fill="#06402F">Payment reminder</text><text x="242" y="1088" font-size="20" fill="#76522C">Upcoming EMI due in 3 days</text>
+    <text x="194" y="1210" font-size="20" font-weight="800" fill="#0C7C59">Consent, quiet hours and opt-out respected</text>
+  </g>
+</svg>

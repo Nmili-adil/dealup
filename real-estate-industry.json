@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "title": "Real Estate on WhatsApp | Dealup",
+    "description": "Qualify property leads, answer listing enquiries and schedule viewings on WhatsApp. Route each buyer to the right agent with full listing context."
+  },
+  "hero": {
+    "breadcrumb": "Real Estate",
+    "badge": "For property teams",
+    "headlineLead": "Qualify buyers and book viewings ",
+    "headlineAccent": "on WhatsApp.",
+    "description": "Buyers message agents before they ever book a visit. Dealup qualifies property interest by budget and intent, routes each lead to the right agent, and books viewings in the chat.",
+    "imageAlt": "A property team qualifying a buyer by budget and scheduling a viewing inside the Dealup inbox"
+  },
+  "problem": {
+    "eyebrow": "The challenge",
+    "title": "Property leads vanish into personal phones",
+    "description": "Listing enquiries land on WhatsApp and often stop there. When every agent works from their own phone, leads go to the wrong person, get lost, or run cold before anyone follows up.",
+    "points": [
+      "Buyers message agents directly, so leads pile up in personal phones",
+      "No shared record of who enquired, about which property, or for what budget",
+      "Casual browsers and serious buyers are treated the same, wasting agent time",
+      "Viewings and follow-ups depend on memory, so hot leads slip away"
+    ]
+  },
+  "benefits": {
+    "eyebrow": "Why it matters",
+    "title": "Turn WhatsApp enquiries into booked viewings",
+    "items": [
+      {
+        "title": "No lead gets lost",
+        "description": "Every enquiry lands in a shared inbox, assigned to an agent and tracked from first message."
+      },
+      {
+        "title": "Qualify before you follow up",
+        "description": "Capture budget, location and intent up front so agents prioritize serious buyers."
+      },
+      {
+        "title": "Book viewings in the chat",
+        "description": "Confirm visit slots directly in WhatsApp, with reminders and rescheduling handled automatically."
+      },
+      {
+        "title": "Consistent follow-up",
+        "description": "Automated reminders keep every lead moving toward a viewing or a clear no."
+      }
+    ]
+  },
+  "capabilities": {
+    "eyebrow": "What you get",
+    "title": "The property team toolkit in your inbox",
+    "description": "From first enquiry to signed viewing, keep every lead organized and moving.",
+    "items": [
+      {
+        "title": "Lead intake & assignment",
+        "description": "Capture every enquiry and send it to the right agent automatically.",
+        "points": [
+          "Route by location, property type, or agent availability",
+          "Round-robin assignment so leads are shared fairly",
+          "Full enquiry history preserved through reassignment"
+        ]
+      },
+      {
+        "title": "Budget & intent qualification",
+        "description": "Know what a buyer wants before you respond.",
+        "points": [
+          "AI captures budget, area and timeline from the conversation",
+          "Structured fields on each lead for classification",
+          "Prioritize ready buyers over early-stage browsers"
+        ]
+      },
+      {
+        "title": "Viewing scheduling",
+        "description": "Book and manage viewings inside the chat.",
+        "points": [
+          "Offer available slots and confirm in conversation",
+          "Automatic reminders with reschedule options",
+          "No-show follow-up keeps the pipeline moving"
+        ]
+      },
+      {
+        "title": "Listing & follow-up templates",
+        "description": "Answer listings enquiries consistently and fast.",
+        "points": [
+          "Templates for price, specs, and availability",
+          "Automatic follow-up on quiet, engaged leads",
+          "Re-engage past buyers when matching listings come in"
+        ]
+      }
+    ]
+  },
+  "useCases": {
+    "eyebrow": "Where it fits",
+    "title": "Built for how property teams actually convert",
+    "items": [
+      {
+        "title": "Residential agencies",
+        "description": "Qualify home buyers and renters by budget and desired area before booking visits."
+      },
+      {
+        "title": "Commercial & offices",
+        "description": "Route space enquiries with the right team and follow up long sales cycles."
+      },
+      {
+        "title": "Property developers",
+        "description": "Manage launches and off-plan enquiries at volume with consistent follow-up."
+      },
+      {
+        "title": "Independent agents",
+        "description": "Keep every lead organized and never miss a follow-up with a personal assistant inbox."
+      }
+    ]
+  },
+  "comparison": {
+    "eyebrow": "Manual vs. with Dealup",
+    "title": "Selling property without Dealup vs. with Dealup",
+    "description": "The difference between a string of missed calls and a pipeline of booked viewings.",
+    "manualLabel": "Without Dealup",
+    "dealupLabel": "Dealup for real estate",
+    "rows": [
+      {
+        "label": "Lead capture",
+        "manual": "Enquiries scattered across agents' phones",
+        "dealup": "One shared inbox with assigned ownership"
+      },
+      {
+        "label": "Qualification",
+        "manual": "Agents guess budget and intent",
+        "dealup": "AI captures budget, area and timeline up front"
+      },
+      {
+        "label": "Viewing booking",
+        "manual": "Back-and-forth texts, missed slots",
+        "dealup": "Confirm slots and send reminders automatically"
+      },
+      {
+        "label": "Follow-up",
+        "manual": "Depends on memory, hot leads slip",
+        "dealup": "Automatic reminders on engaged leads"
+      },
+      {
+        "label": "Re-engagement",
+        "manual": "Past buyers lost to time",
+        "dealup": "Matching listings reach interested buyers"
+      }
+    ]
+  },
+  "related": {
+    "title": "Works with",
+    "items": [
+      {
+        "title": "Team Inbox",
+        "description": "The shared inbox that keeps every property lead visible and assigned.",
+        "href": "/features/team-inbox"
+      },
+      {
+        "title": "Automations",
+        "description": "Qualify, route and follow up on property leads automatically.",
+        "href": "/features/automations"
+      },
+      {
+        "title": "Contacts & Segmentation",
+        "description": "Re-engage past buyers when matching listings and areas come up.",
+        "href": "/features/contacts"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "How do property leads get assigned?",
+        "answer": "Enquiries route automatically by location, property type or agent availability, with round-robin assignment so leads are shared fairly and none get lost."
+      },
+      {
+        "question": "Can Dealup qualify a buyer's budget and intent?",
+        "answer": "Yes. AI captures budget, area and timeline from the conversation into structured fields, so agents can prioritize serious buyers over early-stage browsers."
+      },
+      {
+        "question": "How do viewings get booked?",
+        "answer": "Offer available slots directly in the chat, confirm in conversation, and let Dealup send reminders and handle rescheduling automatically."
+      },
+      {
+        "question": "What happens to leads my agents forget to follow up on?",
+        "answer": "Automated reminders keep every engaged lead moving toward a viewing or a clear outcome, so no hot prospect slips away."
+      },
+      {
+        "question": "Can I re-engage past buyers?",
+        "answer": "Yes. Segment interested buyers by area, budget and property type, and reach out when matching listings come in."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Turn WhatsApp enquiries into booked viewings",
+    "description": "Route every property lead to the right agent today and automate the follow-up that closes viewings."
+  }
+}
